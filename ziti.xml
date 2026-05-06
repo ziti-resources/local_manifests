@@ -27,4 +27,6 @@
     <!-- IR Blaster -->
     <project name="vendor_oneplus_ir" path="vendor/oneplus/ir" remote="gl-ziti" />
 
+    <!-- Dolby -->
+    <project name="hardware_dolby" path="hardware/dolby" remote="gh-ziti" />
 </manifest>
