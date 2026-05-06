@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+    <!-- Remotes -->
+    <remote name="gh-ziti" fetch="https://github.com/ziti-resources" clone-depth="1" revision="lineage-23.2" />
+    <remote name="gl-ziti" fetch="https://gitlab.com/ziti-resources" clone-depth="1" revision="lineage-23.2" />
+
+
+    <!-- Device specific trees -->
+    <project name="device_oneplus_ziti" path="device/oneplus/ziti" remote="gh-ziti" />
+    <project name="vendor_oneplus_ziti" path="vendor/oneplus/ziti" remote="gl-ziti" />
+
+    <!-- Common trees -->
+    <project name="device_oneplus_sm8350-common" path="device/oneplus/sm8350-common" remote="gh-ziti" />
+    <project name="vendor_oneplus_sm8350-common" path="vendor/oneplus/sm8350-common" remote="gl-ziti" />
+
+    <!-- Kernel -->
+    <project name="kernel_oneplus_sm8350" path="kernel/oneplus/sm8350" remote="gh-ziti" />
+
+    <!-- Hardware -->
+    <project name="hardware_oplus" path="hardware/oplus" remote="gh-ziti" />
+
+    <!-- Stock camera -->
+    <project name="vendor_oplus_camera" path="vendor/oplus/camera" remote="gl-ziti" />
+
+</manifest>
