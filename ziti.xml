@@ -24,4 +24,7 @@
     <!-- Stock camera -->
     <project name="vendor_oplus_camera" path="vendor/oplus/camera" remote="gl-ziti" />
 
+    <!-- IR Blaster -->
+    <project name="vendor_oneplus_ir" path="vendor/oneplus/ir" remote="gl-ziti" />
+
 </manifest>
