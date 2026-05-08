@@ -5,6 +5,7 @@
     <!-- Remotes -->
     <remote name="gh-ziti" fetch="https://github.com/ziti-resources" clone-depth="1" revision="lineage-23.2" />
     <remote name="gl-ziti" fetch="https://gitlab.com/ziti-resources" clone-depth="1" revision="lineage-23.2" />
+    <remote name="graphene-gitlab" fetch="https://gitlab.com/GrapheneOS" clone-depth="1" revision="16-qpr2" />
 
 
     <!-- Device specific trees -->
@@ -29,4 +30,8 @@
 
     <!-- Dolby -->
     <project name="hardware_dolby" path="hardware/dolby" remote="gh-ziti" />
+
+    <!-- Vanadium -->
+    <project name="platform_external_vanadium" path="external/vanadium" remote="graphene-gitlab" />
+
 </manifest>
