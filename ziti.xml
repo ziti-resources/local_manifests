@@ -34,4 +34,7 @@
     <!-- Vanadium -->
     <project name="platform_external_vanadium" path="external/vanadium" remote="graphene-gitlab" />
 
+    <!-- MicroG -->
+    <project name="vendor_microg" path="vendor/microg" remote="gh-ziti" revision="sixteen" />
+
 </manifest>
